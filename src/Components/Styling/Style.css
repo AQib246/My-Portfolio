@@ -1,0 +1,356 @@
+/* Home Styling */
+.header_color
+{
+    background: #833ab4;  
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    
+}
+
+
+
+.demo-grid-2
+{
+     background: #833ab4;  
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+
+    text-align: center;
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.my_image
+{
+   border-radius: 50%;
+}
+
+.Title{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.Title h1{
+    font-size: 66px;
+    font-weight: bold;
+    color:  white;
+}
+
+.Title hr{
+    width: 50%;
+    border-top: 4.5px dotted white;
+    margin: auto;
+}
+
+.Title p {
+    color:  white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.Social_links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+.Social_links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.Link
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Link:hover 
+{
+    font-family: cursive;
+  
+}
+
+.main
+{
+    padding-top: 60px;
+}
+
+.img{
+    width: 500px;
+    height: 300px;
+}
+
+
+
+.linkedin:hover
+{
+    color: #0077B5;
+}  
+
+.facebook:hover
+{
+    color: #3b5999;
+}
+
+.gmail:hover
+{
+    color: #ea4335;
+}
+
+.github:hover
+{
+   color: #00405d;
+}
+
+/* End Home Styling */
+
+
+/* Contact Styling */
+
+.contact_body
+{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    padding-top: 2rem;
+}
+
+.contact_grid
+{
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+}
+   
+    
+
+
+.contact_grid p 
+{
+   margin: auto;
+   width: 70%;
+   padding-top: 10px;
+   
+}
+
+.contact_grid h2{
+    font-family: 'Anton';
+}
+
+.contact_grid p{
+    font-family: "Oxygen";
+    font-weight: bold;
+    
+}
+
+.myPic
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.myPic1
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+
+.contact_grid hr{
+       width: 50%;
+       border-top: 5px dotted black;
+       margin: auto;
+}
+
+.Contact_list i
+{
+    font-size: 66px;
+   padding-right:5rem;
+    
+}
+
+/* End Contact Styling */
+
+/* Resume Styling */
+
+.resume_right-col
+{
+    background-color: rgb(236, 236, 236);
+    color: white;
+    padding:2em;
+}
+
+.Institute_name
+{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.Education
+{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.Year
+{
+    color: rgb(92, 92, 92);
+    
+}
+
+.Skill_Name
+{
+    color: rgb(87, 87, 87);
+
+}
+
+.Details
+{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;  
+}
+.Myname
+{
+   
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+.abc
+{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+button
+{
+    background-color: black;
+    height: 25px;
+}
+button a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* End Resume  Styling */
+
+
+/* Project Styling */
+.btn:hover
+{
+    opacity: 0.9;
+}
+
+/* End Project Styling */
+
+
+
+  @media screen and (max-width:700px){
+
+
+.Title h1{
+    font-size: 30px;
+    
+}
+.main
+{
+    padding-top: 50px;
+}
+
+.Social_links
+{
+    width: 50%;
+}
+   
+
+.Social_links i
+{
+    font-size: 2em;
+}
+
+.Title p {
+    font-size: 16px;
+
+}
+.Title hr{
+    border-top: 3px dotted white;
+    margin: auto;
+}
+.myPic1
+{
+    width: 200px;
+    height: 200px;
+}
+
+.myPic
+{
+    width: 200px;
+    height: 200px;
+}
+
+.img
+{
+    width: 310px;
+    height: 310px;
+}
+     
+}
+  
+     
+
+
+
+@media screen and (max-width:360px){
+
+.Title h1{
+  font-size: 20px;
+}
+.main
+{
+  padding-top: 50px;
+}
+
+.Social_links i{
+
+  font-size: 2em;
+}
+
+.Title p {
+  font-size: 13px;
+
+}
+
+.Title hr{
+ 
+  border-top: 2.5px dotted white;
+  
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+
+}
+
+
+
+   
