@@ -11,7 +11,7 @@ const Mian = () => {
     return(
         <div >
             <Switch>
-                <Route path = "/" exact component = {Home} />
+                 <Route path = "/" exact component = {Home}/> 
                 <Route path = "/resume" exact component = {Resume} />
                 <Route path = "/contact" exact component = {Contact} />
                 <Route path = "/projects" exact component = {Project} />

@@ -19,7 +19,7 @@ const Resume = () => {
                 <br/>
                         <p  className="abc">Front End Developer</p>
                         
-                        <p >Hi I am Muhammad AQib from Pakistan.
+                        <p >Hi I am Muhammad AQib.
                             Now I m a Student of Computer Sciece (3rd Year).
                             I m also a Intermediate Front End Developer.
                             I always very mush willing to work as a team membe in miscellineous projects.

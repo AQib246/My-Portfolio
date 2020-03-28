@@ -1,5 +1,6 @@
 import React from "react";
 import {Grid , Cell, ProgressBar } from "react-mdl";
+import { Progress } from 'reactstrap';
 
 
 class Skills extends React.Component
@@ -10,6 +11,7 @@ class Skills extends React.Component
             <div>
                  <Grid>
                      <Cell col ={12} >
+                         
                          <div style = {{display:"flex" }}>
                              <p className = "Skill_Name">HTML5</p>
                          <ProgressBar progress={80} style ={{margin:"auto" , width : '75%'}}/>
@@ -88,6 +90,7 @@ class Skills extends React.Component
                          </div>
                      </Cell>
                  </Grid>
+                 
 
             </div>
         )

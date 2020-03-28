@@ -10,27 +10,31 @@ const Navbar = () => {
     return(
         <div >
         <div className="demo-big-content">
-           <Layout >
-               <Header className = "header_color"  title = {<Link style ={{textDecoration:"none" , color:"white"}} to = "/"><span className = "Link">MY PORTFOLIO</span></Link>}  scroll>
-                   <Navigation  >
+           <Layout>
+               <Header className = "header_color"  title = "MY PORTFOLIO">
+                   <Navigation   >
+                   <Link  to="/"> <span className = "Link">HOME</span></Link>
                    <Link to="/resume"> <span className = "Link">RESUME</span></Link>
                        
                        <Link  to="/contact"> <span className = "Link">CONTACT</span></Link>
-                       <Link to="/projects"> <span className = "Link">PROJECT</span></Link>
+                       <Link to="/projects"> <span className = "Link">PROJECTS</span></Link>
                    </Navigation>
                </Header>
-               <Drawer  title = {<Link style ={{textDecoration:"none" , color:"black"}} to = "/">MY PORTFOLIO</Link>}>
+               <Drawer title="MY PORTFOLIO">
                    <Navigation>
+                   <Link  to="/"> <span className = "Link">HOME</span></Link>
+
                    <Link to="/resume">Resume</Link>
                        
                        <Link to="/contact">Contact</Link>
                        <Link to="/projects">Projects</Link>
                    </Navigation>
                </Drawer>
-               <Content>
-                   <div className="page-content"/>
-                   <Main />
-                  
+               <Content >
+                   <div className="page-content" />
+                   
+                   <Main  />
+                   
                    
                </Content>
            </Layout>

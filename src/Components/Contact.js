@@ -11,7 +11,7 @@ const Contact = () => {
                     <Cell col = {6}>
                         <h2>MuhamMad AQib</h2>
                         <img src = {pic} className = "myPic" height = "250px"/>
-                        <p>Hi I am Muhammad AQib from Pakistan.
+                        <p>Hi I am Muhammad AQib.
                             Now I m a Student of Computer Sciece (3rd Year).
                             I m also a Intermediate Front End Developer.
                             I always very mush willing to work as a team membe in miscellineous projects.
@@ -27,15 +27,15 @@ const Contact = () => {
                         <List>
                    <ListItem>
                       <ListItemContent style = {{fontSize:"25px" , fontFamily: 'Anton'}}>
-                      <i className = "fa fa-phone-square"  aria-hidden = "true"/> 
-                      +92-315-2391324
+                      <i className = "fa fa-phone-square phone"  aria-hidden = "true"/> 
+                      <span className = "contact_number">+92-315-2391324</span>
                       </ListItemContent>
                    </ListItem>
 
                    <ListItem>
                       <ListItemContent style = {{fontSize:"25px" , fontFamily: 'Anton'}}>
-                      <i className = "fa fa-envelope-square"  aria-hidden = "true"/> 
-                      maqibsohail246@gmail.com
+                      <i className = "fa fa-envelope-square envelope"  aria-hidden = "true"/> 
+                      <span className = "contact_number">maqibsohail246@gmail.com</span>
                       </ListItemContent>
                    </ListItem>
                         </List>

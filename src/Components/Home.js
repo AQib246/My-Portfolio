@@ -5,15 +5,18 @@ import "./Styling/Style.css";
 
 const Home = () => {
     return(
-        <div  >
-              <Grid className="demo-grid-2" >
+
+        <div >
+              <Grid className="demo-grid-2"  >
 
 
-        <Cell col={12}  className = "main" >
+        <Cell col={12}  className = "main"  >
             <img src = {pic} className = "myPic1"  />
-            <div className = "Title">
+            <div style = {{marginBottom:"0px"}}>
+            <div className = "Title" >
                 <h1 >Front End Developer </h1>
                 <hr/>
+                <br/>
                 
                 <p>
                     HTML | CSS | Bootstrap | Reactstrap | JavaScript | React | React Native | Firebase DataBase | Desktop Application | MS SQL
@@ -34,11 +37,26 @@ const Home = () => {
                   
                 </div>
             </div>
+            </div>
         </Cell>
     </Grid>
-        
+
+   
+
+   
+
     
-        </div>
+
+
+    
+    
+    
+    
+    
+
+
+  
+                </div>
 
         
     )

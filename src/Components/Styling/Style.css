@@ -1,25 +1,25 @@
 /* Home Styling */
 .header_color
-{
-    background: #833ab4;  
+{ background: #833ab4;  
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
     
 }
 
-
-
 .demo-grid-2
 {
-     background: #833ab4;  
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-
+    
+        background: #833ab4;  
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    
     text-align: center;
 
-    position: fixed;
+    /* position: fixed;     */
+    margin-top: 100px;
     height: 100%;
     width: 100%;
+    
     
 
 }
@@ -31,22 +31,28 @@
 
 .Title{
     background-color: black;
-    opacity: .8;
+    opacity: .9;
     width: 75%;
     margin: auto;
     border-radius: 10px;
+    padding-bottom: 4px;
 }
 
 .Title h1{
-    font-size: 66px;
-    font-weight: bold;
-    color:  white;
+    font-size: 60px;
+    font-weight: 800;
+    color:white;
+    font-family: cursive;
+    padding-top: 6px;
+ 
+
 }
 
 .Title hr{
-    width: 50%;
+    width: 60%;
     border-top: 4.5px dotted white;
     margin: auto;
+    margin-top: -10px;
 }
 
 .Title p {
@@ -81,7 +87,7 @@
 
 .main
 {
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .img{
@@ -121,7 +127,6 @@
     height: 100%;
     width: 100%;
     justify-content: center;
-    position: fixed;
     padding-top: 2rem;
 }
 
@@ -180,8 +185,19 @@
 {
     font-size: 66px;
    padding-right:5rem;
+  
+}
+
+.phone
+{
+    color: lightskyblue
+}
+
+.envelope{
+    color: #ea4335;
     
 }
+    
 
 /* End Contact Styling */
 
@@ -228,11 +244,9 @@
 }
 .Myname
 {
-   
   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
-    
 }
 .abc
 {
@@ -264,20 +278,20 @@ button a
 
 
 
-  @media screen and (max-width:700px){
+  @media screen and (max-width:800px){
 
 
-.Title h1{
-    font-size: 30px;
+ .Title h1{
+    font-size: 26px;
     
-}
+} 
 .main
 {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .Social_links
-{
+{   
     width: 50%;
 }
    
@@ -287,10 +301,6 @@ button a
     font-size: 2em;
 }
 
-.Title p {
-    font-size: 16px;
-
-}
 .Title hr{
     border-top: 3px dotted white;
     margin: auto;
@@ -312,21 +322,44 @@ button a
     width: 310px;
     height: 310px;
 }
+
+
+.Contact_list i
+{
+    font-size: 34px;
+   padding-right:2rem;
+    
+}
+
+.contact_number
+{
+   font-size: 18px;
+}
+
+.contact_grid h2{
+    font-size: 35px;
      
 }
+
+.contact_grid hr{
+    width: 70%;
+    border-top: 4px dotted black;
+    
+}
+  }
   
      
+  
 
 
-
-@media screen and (max-width:360px){
+@media screen and (max-width:375px){
 
 .Title h1{
   font-size: 20px;
 }
 .main
 {
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 .Social_links i{
@@ -349,7 +382,70 @@ button a
     height: 250px;
 }
 
+.Contact_list i
+{
+    font-size: 27px;
+   padding-right:2rem;
+   
+    
 }
+
+.contact_number
+{
+   font-size: 15px;
+}
+
+.contact_grid h2{
+    font-size: 30px;
+     
+}
+
+.contact_grid hr{
+    width: 70%;
+    border-top: 3px dotted black;
+    
+}
+
+.Myname{
+    font-size: 30px;
+
+}
+
+}
+
+@media screen and (max-width:411px)
+{
+    .Contact_list i
+    {
+        font-size: 23.5px;
+       padding-right:2rem;
+        
+    }
+    
+    .contact_number
+    {
+       font-size: 12.5px;
+    }
+    .contact_grid h2{
+        font-size: 25px;
+         
+    }
+    
+    .contact_grid hr{
+        width: 65%;
+        border-top: 3px dotted black;
+        
+    }
+    .myPic1
+{
+    width: 190px;
+    height: 190px;
+}
+}
+
+
+
+
 
 
 
